@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #030518;
+  color: white;
+  word-break: break-all;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  font-size: 1.2em;
+}
+
+li span {
+  margin: 10px;
+}
+
+h1 {
+  margin: 20px auto;
+}
